@@ -15,7 +15,7 @@ import {
 import { useEffect } from "react";
 import { useInView } from "react-intersection-observer";
 
-const Contact = () => {
+const Contact = ({ title, text, phone, mail }) => {
     const controls = useAnimation();
     const [ref, inView] = useInView();
 
@@ -56,17 +56,13 @@ const Contact = () => {
                 }}
                 variants={contactContainerVariants}
             >
-                <ContactH1>Zainteresowany?</ContactH1>
-                <ContactP>
-                    Jesteśmy do Twojej dyspozycji. Jeżeli
-                    masz jakiekolwiek pytania lub chciałbyś
-                    poznać wycenę zadzwoń.
-                </ContactP>
+                <ContactH1>{title}</ContactH1>
+                <ContactP>{text}</ContactP>
                 <ContactPhoneNumber>
-                    987 654 321
+                    {phone}
                 </ContactPhoneNumber>
                 <span>lub</span>
-                <ContanctButton>Napisz</ContanctButton>
+                <ContanctButton>{mail}</ContanctButton>
             </ContantContent>
             <PlaneContainer>
                 <AnimatePresence>

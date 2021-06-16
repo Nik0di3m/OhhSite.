@@ -14,7 +14,13 @@ import { useInView } from "react-intersection-observer";
 import { useEffect } from "react";
 import TextAnimation from "../whyus/TextAnimation";
 
-const Faq = () => {
+const Faq = ({
+    title1,
+    title2,
+    answer1,
+    answer2,
+    answer3,
+}) => {
     const controls = useAnimation();
     const [ref, inView] = useInView();
 
@@ -27,36 +33,16 @@ const Faq = () => {
         <FaqContainer>
             <FaqTitleContainer>
                 <FirstContainer>
-                    <FirstTitle>Jak możemy</FirstTitle>
+                    <FirstTitle>{title1}</FirstTitle>
                 </FirstContainer>
                 <SecondContainer>
-                    <SecondTitle>
-                        Wspomóc Twój biznes?
-                    </SecondTitle>
+                    <SecondTitle>{title2}</SecondTitle>
                 </SecondContainer>
             </FaqTitleContainer>
             <AnswerContainer>
-                <TextAnimation
-                    text="Lorem ipsum dolor sit amet, consectetur
-                adipiscing elit. Maecenas et neque vehicula,
-                pharetra elit nec, blandit risus. Ut
-                hendrerit nulla tortor, quis consectetur
-                odio ultrices interdum"
-                />
-                <TextAnimation
-                    text="Lorem ipsum dolor sit amet, consectetur
-                adipiscing elit. Maecenas et neque vehicula,
-                pharetra elit nec, blandit risus. Ut
-                hendrerit nulla tortor, quis consectetur
-                odio ultrices interdum"
-                />
-                <TextAnimation
-                    text="Lorem ipsum dolor sit amet, consectetur
-                adipiscing elit. Maecenas et neque vehicula,
-                pharetra elit nec, blandit risus. Ut
-                hendrerit nulla tortor, quis consectetur
-                odio ultrices interdum"
-                />
+                <TextAnimation text={answer1} />
+                <TextAnimation text={answer2} />
+                <TextAnimation text={answer3} />
             </AnswerContainer>
         </FaqContainer>
     );

@@ -7,35 +7,23 @@ import {
 } from "./WhyUsElements";
 import TextAnimation from "./TextAnimation";
 
-const WhyUs = () => {
+const WhyUs = ({
+    title1,
+    title2,
+    answer1,
+    answer2,
+    answer3,
+}) => {
     return (
         <WhyUsContainer>
             <WhyUsTitle>
-                Dlaczego
-                <WhyUsTitle2>My?</WhyUsTitle2>
+                {title1}
+                <WhyUsTitle2>{title2}</WhyUsTitle2>
             </WhyUsTitle>
             <TextContainer>
-                <TextAnimation
-                    text="Lorem ipsum dolor sit amet, consectetur
-                adipiscing elit. Maecenas et neque vehicula,
-                pharetra elit nec, blandit risus. Ut
-                hendrerit nulla tortor, quis consectetur
-                odio ultrices interdum"
-                />
-                <TextAnimation
-                    text="Lorem ipsum dolor sit amet, consectetur
-                adipiscing elit. Maecenas et neque vehicula,
-                pharetra elit nec, blandit risus. Ut
-                hendrerit nulla tortor, quis consectetur
-                odio ultrices interdum"
-                />
-                <TextAnimation
-                    text="Lorem ipsum dolor sit amet, consectetur
-                adipiscing elit. Maecenas et neque vehicula,
-                pharetra elit nec, blandit risus. Ut
-                hendrerit nulla tortor, quis consectetur
-                odio ultrices interdum"
-                />
+                <TextAnimation text={answer1} />
+                <TextAnimation text={answer2} />
+                <TextAnimation text={answer3} />
             </TextContainer>
         </WhyUsContainer>
     );

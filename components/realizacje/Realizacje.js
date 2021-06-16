@@ -33,9 +33,7 @@ const Realizacje = () => {
                 >
                     Realizacje
                 </RealizacjeTitle>
-                <RealizacjeSlider>
-                    <Slider />
-                </RealizacjeSlider>
+                <RealizacjeSlider></RealizacjeSlider>
             </RealizacjeWrapper>
         </ReallizacjeContainer>
     );

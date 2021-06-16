@@ -10,7 +10,7 @@ import {
     TextAds,
 } from "./AdsElements";
 import ImageAnimation from "./ImageAnimation";
-const Ads = () => {
+const Ads = ({ title1, title2, text }) => {
     const controls = useAnimation();
     const [ref, inView] = useInView();
 
@@ -32,19 +32,9 @@ const Ads = () => {
                     hidden: { opacity: 0, scale: 0 },
                 }}
             >
-                <AdsTextH1>Reklama w</AdsTextH1>
-                <AdsGradient>Internecie</AdsGradient>
-                <TextAds>
-                    Lorem ipsum dolor sit amet, consectetur
-                    adipiscing elit. Donec ut semper ex.
-                    Nulla viverra vehicula massa. In
-                    fringilla enim nunc, sit amet tristique
-                    orci interdum eu. Lorem ipsum dolor sit
-                    amet, consectetur adipiscing elit.
-                    Suspendisse semper mi vitae ex
-                    imperdiet, vel iaculis sapien bibendum.
-                    Aliquam ut ultricies diam.
-                </TextAds>
+                <AdsTextH1>{title1}</AdsTextH1>
+                <AdsGradient>{title2}</AdsGradient>
+                <TextAds>{text}</TextAds>
                 <AdsButton>Czytaj więcej ...</AdsButton>
             </AdsText>
         </AdsContainer>

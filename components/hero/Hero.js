@@ -9,7 +9,7 @@ import {
     HeroTextH1,
     Text,
 } from "./HeroElements";
-const Hero = () => {
+const Hero = ({ title1, title2, text }) => {
     const textVariants = {
         hidden: {
             x: -1500,
@@ -29,19 +29,9 @@ const Hero = () => {
                 initial="hidden"
                 animate="visable"
             >
-                <HeroTextH1>Tworzymy</HeroTextH1>
-                <HeroGradient>Strony</HeroGradient>
-                <Text>
-                    Lorem ipsum dolor sit amet, consectetur
-                    adipiscing elit. Donec ut semper ex.
-                    Nulla viverra vehicula massa. In
-                    fringilla enim nunc, sit amet tristique
-                    orci interdum eu. Lorem ipsum dolor sit
-                    amet, consectetur adipiscing elit.
-                    Suspendisse semper mi vitae ex
-                    imperdiet, vel iaculis sapien bibendum.
-                    Aliquam ut ultricies diam.
-                </Text>
+                <HeroTextH1>{title1}</HeroTextH1>
+                <HeroGradient>{title2}</HeroGradient>
+                <Text>{text}</Text>
                 <HeroButtonContainer>
                     <HeroButton>
                         <Link href="o-nas">O nas</Link>
