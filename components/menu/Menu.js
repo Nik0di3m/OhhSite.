@@ -56,14 +56,26 @@ const Menu = () => {
                         <CloseIcon fontSize="large" />
                     </CloseIconContainer>
                     <MenuItemContainert>
-                        <MenuItem>O nas</MenuItem>
-                        <MenuItem>Grafika</MenuItem>
-                        <MenuItem>Cennik</MenuItem>
-                        <MenuItem>Kontakt</MenuItem>
-                        <MenuItem>Realizacje</MenuItem>
-                        <MenuItem>
-                            Dodatkowe usługi
-                        </MenuItem>
+                        <Link href="o-nas">
+                            <MenuItem>O nas</MenuItem>
+                        </Link>
+                        <Link href="grafika">
+                            <MenuItem>Grafika</MenuItem>
+                        </Link>
+                        <Link href="cennik">
+                            <MenuItem>Cennik</MenuItem>
+                        </Link>
+                        <Link href="kontakt">
+                            <MenuItem>Kontakt</MenuItem>
+                        </Link>
+                        <Link href="realizacje">
+                            <MenuItem>Realizacje</MenuItem>
+                        </Link>
+                        <Link href="dodatkowe-uslugi">
+                            <MenuItem>
+                                Dodatkowe usługi
+                            </MenuItem>
+                        </Link>
                     </MenuItemContainert>
                 </SideMenu>
                 <MenuContainer>
@@ -98,22 +110,34 @@ const Menu = () => {
                         </MenuLogo>
                         <MenuItemsContainerDesktop>
                             <MenuItemDesktop>
-                                O nas
+                                <Link href="o-nas">
+                                    O nas
+                                </Link>
                             </MenuItemDesktop>
                             <MenuItemDesktop>
-                                Grafika
+                                <Link href="grafika">
+                                    Grafika
+                                </Link>
                             </MenuItemDesktop>
                             <MenuItemDesktop>
-                                Cennik
+                                <Link href="cennik">
+                                    Cennik
+                                </Link>
                             </MenuItemDesktop>
                             <MenuItemDesktop>
-                                Kontakt
+                                <Link href="kontakt">
+                                    Kontakt
+                                </Link>
                             </MenuItemDesktop>
                             <MenuItemDesktop>
-                                Realizacje
+                                <Link href="realizacje">
+                                    Realizacje
+                                </Link>
                             </MenuItemDesktop>
                             <MenuItemDesktop>
-                                Dodatkowe usługi
+                                <Link href="dodatkowe-uslugi">
+                                    Dodatkowe usługi
+                                </Link>
                             </MenuItemDesktop>
                         </MenuItemsContainerDesktop>
                     </MenuContainerDesktop>

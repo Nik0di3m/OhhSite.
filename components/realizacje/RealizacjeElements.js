@@ -38,4 +38,46 @@ export const RealizacjeTitle = styled(motion.h1)`
         font-size: 46px;
     }
 `;
-export const RealizacjeSlider = styled.div``;
+export const RealizacjeImages = styled.div`
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 0px 10px;
+    grid-template-areas: ". . .";
+    @media (max-width: 992px) {
+        grid-template-columns: 1fr;
+        grid-template-areas: ".";
+        gap: 15px;
+    }
+`;
+export const ImgaeOverlay = styled.div`
+    position: relative;
+    width: 450px;
+    height: 250px;
+    cursor: pointer;
+`;
+export const Overlay = styled.div`
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.8rem;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(
+        -90deg,
+        rgba(36, 206, 229, 1) 0%,
+        rgba(0, 65, 255, 1) 100%
+    );
+    z-index: 80;
+    opacity: 0.8;
+    transition: all 200ms ease-in;
+    & :hover {
+        opacity: 0;
+    }
+    p {
+        opacity: 1;
+    }
+`;

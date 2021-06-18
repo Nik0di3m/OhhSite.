@@ -58,6 +58,7 @@ export const MenuItemContainert = styled(motion.nav)`
 export const MenuItem = styled(motion.div)`
     display: flex;
     flex: 0.1;
+    cursor: pointer;
 `;
 
 export const MenuMobile = styled.div`
@@ -77,6 +78,12 @@ export const MenuContainerDesktop = styled.div`
 
 export const MenuItemDesktop = styled.div`
     margin-left: 20px;
+    cursor: pointer;
+    transition: all 200ms ease-in;
+
+    & :hover {
+        box-shadow: 0px 1px 0px 0px #24cee5;
+    }
 `;
 export const MenuItemsContainerDesktop = styled.div`
     display: flex;

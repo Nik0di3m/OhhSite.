@@ -5,10 +5,13 @@ import {
     ReallizacjeContainer,
     RealizacjeWrapper,
     RealizacjeTitle,
-    RealizacjeSlider,
+    RealizacjeImages,
+    ImgaeOverlay,
+    Overlay,
 } from "./RealizacjeElements";
 import Slider from "./Slider";
-
+import Image from "next/image";
+import Link from "next/link";
 const Realizacje = () => {
     const controls = useAnimation();
     const [ref, inView] = useInView();
@@ -33,7 +36,50 @@ const Realizacje = () => {
                 >
                     Realizacje
                 </RealizacjeTitle>
-                <RealizacjeSlider></RealizacjeSlider>
+                <RealizacjeImages>
+                    <Link href="https://as-rent.pl">
+                        <a target="_blank">
+                            <ImgaeOverlay>
+                                <Image
+                                    src="/images/as-rent.png"
+                                    width="450"
+                                    height="250"
+                                />
+                                <Overlay>
+                                    <p>as-rent.pl</p>
+                                </Overlay>
+                            </ImgaeOverlay>
+                        </a>
+                    </Link>
+                    <Link href="https://tas-bialystok.pl/">
+                        <a target="_blank">
+                            <ImgaeOverlay>
+                                <Image
+                                    src="/images/tas.png"
+                                    width="450"
+                                    height="250"
+                                />
+                                <Overlay>
+                                    <p>tas-bialystok.pl</p>
+                                </Overlay>
+                            </ImgaeOverlay>
+                        </a>
+                    </Link>
+                    <Link href="https://gingergarage.pl/">
+                        <a target="_blank">
+                            <ImgaeOverlay>
+                                <Image
+                                    src="/images/ginger.png"
+                                    width="450"
+                                    height="250"
+                                />
+                                <Overlay>
+                                    <p>gingergarage.pl</p>
+                                </Overlay>
+                            </ImgaeOverlay>
+                        </a>
+                    </Link>
+                </RealizacjeImages>
             </RealizacjeWrapper>
         </ReallizacjeContainer>
     );
