@@ -66,6 +66,7 @@ const Testemonials = () => {
                 variants={testemonialsContainerVariant}
                 initial="hidden"
                 animate={`${active ? "visable" : "hidden"}`}
+                style={{ cursor: "pointer" }}
             >
                 <TestemonialsContentContainer
                     variants={testemonialsContentVariants}

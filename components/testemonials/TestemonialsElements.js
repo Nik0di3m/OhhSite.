@@ -8,6 +8,7 @@ export const TestemonialsWrapper = styled(motion.div)`
     align-items: center;
     position: relative;
     z-index: 55;
+    margin-top: 25px;
 `;
 
 export const TestemonialsContainer = styled(motion.div)`

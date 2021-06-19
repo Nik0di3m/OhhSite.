@@ -9,6 +9,7 @@ export const ContactContainer = styled.div`
     align-items: center;
     overflow: hidden;
     position: relative;
+    margin-top: 25px;
 `;
 
 export const PlaneContainer = styled.div``;

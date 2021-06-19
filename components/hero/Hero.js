@@ -29,8 +29,15 @@ const Hero = ({ title1, title2, text }) => {
                 initial="hidden"
                 animate="visable"
             >
-                <HeroTextH1>{title1}</HeroTextH1>
-                <HeroGradient>{title2}</HeroGradient>
+                {" "}
+                <Link href="strony-www">
+                    <a>
+                        <HeroTextH1>{title1}</HeroTextH1>
+                        <HeroGradient>
+                            {title2}
+                        </HeroGradient>
+                    </a>
+                </Link>
                 <Text>{text}</Text>
                 <HeroButtonContainer>
                     <HeroButton>

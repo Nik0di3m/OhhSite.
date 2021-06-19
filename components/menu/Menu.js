@@ -59,11 +59,13 @@ const Menu = () => {
                         <Link href="o-nas">
                             <MenuItem>O nas</MenuItem>
                         </Link>
-                        <Link href="grafika">
-                            <MenuItem>Grafika</MenuItem>
+                        <Link href="strony-www">
+                            <MenuItem>Strony WWW</MenuItem>
                         </Link>
-                        <Link href="cennik">
-                            <MenuItem>Cennik</MenuItem>
+                        <Link href="pozycjonowanie">
+                            <MenuItem>
+                                Pozycjonowanie
+                            </MenuItem>
                         </Link>
                         <Link href="kontakt">
                             <MenuItem>Kontakt</MenuItem>
@@ -115,13 +117,13 @@ const Menu = () => {
                                 </Link>
                             </MenuItemDesktop>
                             <MenuItemDesktop>
-                                <Link href="grafika">
-                                    Grafika
+                                <Link href="strony-www">
+                                    Strony WWW
                                 </Link>
                             </MenuItemDesktop>
                             <MenuItemDesktop>
-                                <Link href="cennik">
-                                    Cennik
+                                <Link href="pozycjonowanie">
+                                    Pozycjonowanie
                                 </Link>
                             </MenuItemDesktop>
                             <MenuItemDesktop>

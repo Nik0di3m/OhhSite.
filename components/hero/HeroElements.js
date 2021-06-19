@@ -39,7 +39,7 @@ export const HeroText = styled(motion.div)`
 export const HeroTextH1 = styled.h1`
     font-size: 110px;
     @media (max-width: 992px) {
-        font-size: 58px;
+        font-size: 52px;
     }
 `;
 

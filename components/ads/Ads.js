@@ -10,6 +10,7 @@ import {
     TextAds,
 } from "./AdsElements";
 import ImageAnimation from "./ImageAnimation";
+import Link from "next/link";
 const Ads = ({ title1, title2, text }) => {
     const controls = useAnimation();
     const [ref, inView] = useInView();
@@ -32,10 +33,20 @@ const Ads = ({ title1, title2, text }) => {
                     hidden: { opacity: 0, scale: 0 },
                 }}
             >
-                <AdsTextH1>{title1}</AdsTextH1>
-                <AdsGradient>{title2}</AdsGradient>
+                <Link href="pozycjonowanie">
+                    <a>
+                        <AdsTextH1>{title1}</AdsTextH1>
+                        <AdsGradient>{title2}</AdsGradient>
+                    </a>
+                </Link>
                 <TextAds>{text}</TextAds>
-                <AdsButton>Czytaj więcej ...</AdsButton>
+                <Link href="pozycjonowanie">
+                    <a>
+                        <AdsButton>
+                            Czytaj więcej ...
+                        </AdsButton>
+                    </a>
+                </Link>
             </AdsText>
         </AdsContainer>
     );

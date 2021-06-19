@@ -44,7 +44,7 @@ export const AdsText = styled(motion.div)`
     }
 `;
 export const AdsTextH1 = styled.h1`
-    font-size: 110px;
+    font-size: 72px;
     text-shadow: 0px 2px 15px 1px rgba(0, 0, 0, 0.72);
     @media (max-width: 1280px) {
         font-size: 98px;
@@ -53,12 +53,12 @@ export const AdsTextH1 = styled.h1`
         font-size: 98px;
     }
     @media (max-width: 992px) {
-        font-size: 58px;
+        font-size: 42px;
     }
 `;
 export const AdsGradient = styled.h1`
-    font-size: 110px;
-    margin-top: -110px;
+    font-size: 72px;
+    margin-top: -80px;
     background-image: linear-gradient(
         -90deg,
         rgba(63, 94, 251, 1) 0%,
@@ -72,12 +72,12 @@ export const AdsGradient = styled.h1`
     -moz-background-clip: text;
     -moz-text-fill-color: transparent;
     @media (max-width: 992px) {
-        font-size: 58px;
+        font-size: 42px;
         margin-top: -10%;
     }
 `;
 export const TextAds = styled.p`
-    margin-top: -10%;
+    margin-top: -5%;
     max-width: 80%;
     @media (max-width: 992px) {
         text-align: center;
