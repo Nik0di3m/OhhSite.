@@ -26,39 +26,23 @@ export const RightSideFooter = styled.div`
 `;
 
 export const CenterTitle = styled.h2`
-    background-image: linear-gradient(
-        -90deg,
-        rgba(36, 206, 229, 1) 0%,
-        rgba(0, 65, 255, 1) 100%
-    );
-    background-clip: text;
-    background-size: 100%;
-    background-repeat: repeat;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    -moz-background-clip: text;
-    -moz-text-fill-color: transparent;
+    color: #24cee5;
 `;
 
 export const RightTitle = styled.h2`
-    background-image: linear-gradient(
-        -90deg,
-        rgba(63, 94, 251, 1) 0%,
-        rgba(252, 70, 107, 1) 100%
-    );
-    background-clip: text;
-    background-size: 100%;
-    background-repeat: repeat;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    -moz-background-clip: text;
-    -moz-text-fill-color: transparent;
+    color: #24cee5;
 `;
 
 export const FooterItem = styled.li`
     text-decoration: none;
     list-style: none;
     color: white;
+    text-decoration-color: #24cee5;
+    transition: all 200ms ease-in;
+    & :hover {
+        text-decoration: underline;
+        text-decoration-color: #24cee5;
+    }
 `;
 
 export const FooterCopy = styled.div`
@@ -66,4 +50,7 @@ export const FooterCopy = styled.div`
     display: flex;
     justify-content: center;
     font-weight: 200;
+`;
+export const CompanyInfo = styled.div`
+    color: white;
 `;

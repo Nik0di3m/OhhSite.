@@ -1,9 +1,6 @@
-<svg id="surface32321114" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="30" height="30" viewBox="0 0 30 30">
-  <defs>
-    <linearGradient id="linear-gradient" x1="0.802" y1="0.879" x2="0.188" y2="0.109" gradientUnits="objectBoundingBox">
-      <stop offset="0" stop-color="#24cee5"/>
-      <stop offset="1" stop-color="#0041ff"/>
-    </linearGradient>
-  </defs>
-  <path id="Path_10" data-name="Path 10" d="M15,0a15.074,15.074,0,0,0-2.244,29.968v-10.9H9.045V15.109h3.711V12.474c0-4.368,2.117-6.282,5.727-6.282a20.831,20.831,0,0,1,3.076.186V9.836H19.1c-1.531,0-2.068,1.463-2.068,3.109v2.164h4.492l-.608,3.963H17.029V30A15.074,15.074,0,0,0,15,0Zm0,0" fill="url(#linear-gradient)"/>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 30 30" width="30px" height="30px">
+<g id="surface10625587">
+<path style=" stroke:none;fill-rule:nonzero;fill:rgb(14.117648%,80.784315%,89.803922%);fill-opacity:1;" d="M 15 3 C 8.371094 3 3 8.371094 3 15 C 3 21.015625 7.433594 25.984375 13.207031 26.851562 L 13.207031 18.179688 L 10.238281 18.179688 L 10.238281 15.027344 L 13.207031 15.027344 L 13.207031 12.925781 C 13.207031 9.453125 14.898438 7.925781 17.785156 7.925781 C 19.171875 7.925781 19.902344 8.03125 20.246094 8.074219 L 20.246094 10.828125 L 18.277344 10.828125 C 17.050781 10.828125 16.625 11.992188 16.625 13.300781 L 16.625 15.027344 L 20.21875 15.027344 L 19.730469 18.179688 L 16.625 18.179688 L 16.625 26.878906 C 22.480469 26.082031 27 21.074219 27 15 C 27 8.371094 21.628906 3 15 3 Z M 15 3 "/>
+</g>
 </svg>

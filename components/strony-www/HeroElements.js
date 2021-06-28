@@ -45,18 +45,7 @@ export const HeroTextH1 = styled.h1`
 
 export const HeroGradient = styled.h1`
     font-size: 72px;
-    background-image: linear-gradient(
-        -90deg,
-        rgba(36, 206, 229, 1) 0%,
-        rgba(0, 65, 255, 1) 100%
-    );
-    background-clip: text;
-    background-size: 100%;
-    background-repeat: repeat;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    -moz-background-clip: text;
-    -moz-text-fill-color: transparent;
+    color: #24cee5;
     @media (max-width: 992px) {
         font-size: 50px;
         justify-content: center;

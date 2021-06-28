@@ -28,7 +28,7 @@ export const Label = styled.label`
 export const Input = styled.input`
     background-color: #2b2b2b;
     border: none;
-    padding: 4px;
+    padding: 6px;
     color: white;
     font-family: inherit;
     border-radius: 20px;
@@ -38,13 +38,14 @@ export const Input = styled.input`
 export const TextArea = styled.textarea`
     background-color: #2b2b2b;
     border: none;
-    padding: 4px;
+    padding: 6px;
     border-radius: 20px;
     color: white;
     font-family: inherit;
     box-shadow: 0 0 15px 4px rgba(0, 0, 0, 0.06);
     margin-bottom: 8px;
     height: 300px;
+    resize: none;
 `;
 export const ButtonEmail = styled.button`
     background-color: #2b2b2b;

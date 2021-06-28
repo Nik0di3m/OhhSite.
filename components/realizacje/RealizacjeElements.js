@@ -22,18 +22,7 @@ export const RealizacjeWrapper = styled.div``;
 export const RealizacjeTitle = styled(motion.h1)`
     font-size: 110px;
     text-align: center;
-    background-image: linear-gradient(
-        -90deg,
-        rgba(36, 206, 229, 1) 0%,
-        rgba(0, 65, 255, 1) 100%
-    );
-    background-clip: text;
-    background-size: 100%;
-    background-repeat: repeat;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    -moz-background-clip: text;
-    -moz-text-fill-color: transparent;
+    color: #24cee5;
     @media (max-width: 992px) {
         font-size: 46px;
     }
@@ -66,11 +55,7 @@ export const Overlay = styled.div`
     font-size: 1.8rem;
     width: 100%;
     height: 100%;
-    background-image: linear-gradient(
-        -90deg,
-        rgba(36, 206, 229, 1) 0%,
-        rgba(0, 65, 255, 1) 100%
-    );
+    background-color: #24cee5;
     z-index: 80;
     opacity: 0.8;
     transition: all 200ms ease-in;

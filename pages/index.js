@@ -47,12 +47,9 @@ export default function Home() {
                 title1={api.HeroTitle1}
                 title2={api.HeroTitle2}
                 text={api.HeroDesc}
-                image={"images/logoHero.svg"}
-            />
-            <Ads
-                title1={api.ReklamaTitle1}
-                title2={api.ReklamaTitle2}
-                text={api.ReklamaDesc}
+                adstitle1={api.ReklamaTitle1}
+                adstitle2={api.ReklamaTitle2}
+                adstext={api.ReklamaDesc}
             />
             <div
                 style={{

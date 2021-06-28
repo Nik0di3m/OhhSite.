@@ -104,12 +104,15 @@ export const MenuContainerDesktopWrapper = styled.div`
 export const SocialIconsContainer = styled.div`
     display: flex;
     align-items: center;
-    flex: 0.33;
+    flex: 0.5;
     justify-content: space-around;
 `;
 
 export const SocialIcon = styled.div`
     display: flex;
+    flex: 0.2;
+    align-items: center;
+    justify-content: center;
 `;
 
 export const MenuContainerDesktop2 = styled.div`
@@ -119,4 +122,14 @@ export const MenuContainerDesktop2 = styled.div`
     justify-content: space-between;
     margin: 0 auto;
     padding: 6px;
+`;
+export const PhoneContainer = styled.div`
+    display: flex;
+    align-items: center;
+    justify-content: center;
+`;
+export const SocialWrapper = styled.div`
+    display: flex;
+    justify-content: space-around;
+    flex: 0.5;
 `;

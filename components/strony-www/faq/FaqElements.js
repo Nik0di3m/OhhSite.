@@ -51,18 +51,7 @@ export const SecondContainer = styled.div`
 export const SecondTitle = styled.h1`
     font-size: 82px;
     margin-top: -5%;
-    background-image: linear-gradient(
-        -90deg,
-        rgba(63, 94, 251, 1) 0%,
-        rgba(252, 70, 107, 1) 100%
-    );
-    background-clip: text;
-    background-size: 100%;
-    background-repeat: repeat;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    -moz-background-clip: text;
-    -moz-text-fill-color: transparent;
+    color: #24cee5;
     @media (max-width: 1280px) {
         font-size: 72px;
     }
@@ -78,6 +67,7 @@ export const AnswerContainer = styled.div`
     display: flex;
     flex-direction: column;
     width: 100%;
+    max-width: 1536px;
     @media (max-width: 992px) {
         flex-direction: column;
         justify-content: center;
@@ -99,6 +89,17 @@ export const Answer = styled(motion.div)`
     }
 `;
 export const AnswerDiv = styled.div`
+    display: flex;
+    min-width: 100%;
+    justify-content: space-around;
+    @media (max-width: 992px) {
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        width: auto;
+    }
+`;
+export const AnswerDivLast = styled.div`
     display: flex;
     min-width: 100%;
     justify-content: space-around;

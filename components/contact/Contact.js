@@ -59,10 +59,12 @@ const Contact = ({ title, text, phone, mail }) => {
                 <ContactH1>{title}</ContactH1>
                 <ContactP>{text}</ContactP>
                 <ContactPhoneNumber>
-                    {phone}
+                    <a href={`tel:${phone}`}>{phone}</a>
                 </ContactPhoneNumber>
                 <span>lub</span>
-                <ContanctButton>{mail}</ContanctButton>
+                <ContanctButton>
+                    <a href={`mailto:${mail}`}>{mail}</a>
+                </ContanctButton>
             </ContantContent>
             <PlaneContainer>
                 <AnimatePresence>

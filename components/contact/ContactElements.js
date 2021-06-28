@@ -21,11 +21,7 @@ export const PlaneAnimation = styled(motion.div)`
 
 export const ContantContent = styled(motion.div)`
     width: 100%;
-    background-image: linear-gradient(
-        -90deg,
-        rgba(63, 94, 251, 1) 0%,
-        rgba(252, 70, 107, 1) 100%
-    );
+    background-color: #24cee5;
     height: 50vh;
     z-index: 90;
     display: flex;

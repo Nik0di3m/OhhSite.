@@ -7,6 +7,7 @@ import {
     SecondContainer,
     SecondTitle,
     AnswerDiv,
+    AnswerDivLast,
 } from "./FaqElements.js";
 import { FaqContainer } from "./FaqElements";
 import { faqData } from "./Answer.js";
@@ -97,7 +98,7 @@ const Faq = ({
                         opis={opis6}
                     />
                 </AnswerDiv>
-                <AnswerDiv>
+                <AnswerDivLast>
                     <TextAnimation
                         text={answer7}
                         title={answertitle7}
@@ -105,11 +106,11 @@ const Faq = ({
                     />
                     <Image
                         src="/images/stronyWWW2.svg"
-                        width="400px"
+                        width="620px"
                         height="300px"
                         alt="content"
                     />
-                </AnswerDiv>
+                </AnswerDivLast>
             </AnswerContainer>
         </FaqContainer>
     );
