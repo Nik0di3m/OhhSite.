@@ -18,34 +18,33 @@ export const HeroContainer = styled.div`
     }
     @media (max-width: 992px) {
         flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
 `;
 
 export const HeroText = styled(motion.div)`
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
     align-items: flex-start;
-    margin-top: -15%;
     max-width: 50%;
     @media (max-width: 992px) {
         margin-top: 80px;
-        max-width: 95%;
         justify-content: center;
         align-items: center;
+        max-width: 95%;
     }
 `;
 
 export const HeroTextH1 = styled.h1`
     font-size: 110px;
     @media (max-width: 992px) {
-        font-size: 48px;
+        font-size: 52px;
     }
 `;
 
 export const HeroGradient = styled.h1`
-    font-size: 110px;
-    margin-top: -110px;
+    font-size: 72px;
     background-image: linear-gradient(
         -90deg,
         rgba(36, 206, 229, 1) 0%,
@@ -59,20 +58,19 @@ export const HeroGradient = styled.h1`
     -moz-background-clip: text;
     -moz-text-fill-color: transparent;
     @media (max-width: 992px) {
-        margin-top: -10%;
-        font-size: 48px;
-    }
-    @media (max-width: 1440px) and (min-width: 992px) {
-        font-size: 62px;
+        font-size: 50px;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
     }
 `;
 
 export const Text = styled.p`
-    margin-top: -10%;
     max-width: 80%;
     @media (max-width: 992px) {
         margin-top: 0;
         text-align: center;
+        max-width: 100%;
     }
 `;
 
@@ -82,8 +80,15 @@ export const HeroLogo = styled.div`
             max-width: 500px;
         }
     }
+    @media (max-width: 1440px) {
+        img {
+            max-width: 700px;
+        }
+    }
     @media (max-width: 992px) {
-        display: none;
+        img {
+            max-width: 100%;
+        }
     }
 `;
 

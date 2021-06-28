@@ -9,7 +9,7 @@ import {
     HeroTextH1,
     Text,
 } from "./HeroElements";
-const Hero = ({ title1, title2, text }) => {
+const Hero = ({ title1, title2, text, image }) => {
     const textVariants = {
         hidden: {
             x: -1500,
@@ -53,7 +53,7 @@ const Hero = ({ title1, title2, text }) => {
                 </HeroButtonContainer>
             </HeroText>
             <HeroLogo>
-                <img src="images/logoHero.svg" />
+                <img src={image} />
             </HeroLogo>
         </HeroContainer>
     );

@@ -49,8 +49,8 @@ export const AdsTextH1 = styled.h1`
     @media (max-width: 1280px) {
         font-size: 98px;
     }
-    @media (max-width: 1440px) {
-        font-size: 98px;
+    @media (max-width: 1440px) and (min-width: 992px) {
+        font-size: 78px;
     }
     @media (max-width: 992px) {
         font-size: 42px;
@@ -74,6 +74,9 @@ export const AdsGradient = styled.h1`
     @media (max-width: 992px) {
         font-size: 42px;
         margin-top: -10%;
+    }
+    @media (max-width: 1440px) {
+        font-size: 62px;
     }
 `;
 export const TextAds = styled.p`
