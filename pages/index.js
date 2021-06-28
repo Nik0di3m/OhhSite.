@@ -70,7 +70,7 @@ export default function Home() {
                     answer3={api.FaqAnswer3}
                 />
             </div>
-            <Testemonials />
+            {/* <Testemonials /> */}
             <WhyUs
                 title1={api.WhyUsTitle}
                 title2={api.WhyUsTitle2}
