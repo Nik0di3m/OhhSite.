@@ -14,7 +14,7 @@ export const faqData = [
     {
         text: `Lorem ipsum dolor sit amet,
     consectetur adipiscing elit. Morbi
-    nibh justo, lobortis at hendrerit
+    nibh justo, lobortis at hendreritsadfsdf
     vitae, aliquet ut orci. Sed aliquam
     scelerisque purus eget commodo. Nam
     ut porttitor eros, sit amet
